@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body::-webkit-scrollbar{
+            display: none;
+        }
+        .grid>div{
+            grid-row:var(--r);
+            grid-column:var(--c);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="w-full ">
+
+        <div class="page1 w-full bg-[#BC9F8B]">
+           <div class="grid grid-cols-8 grid-rows-20 gap-2">
+            <div class="elem col-span-1 row-span-1" style="--r:1 ; --c:3;"><img src="https://images.pexels.com/photos/1758144/pexels-photo-1758144.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+            <div class=" elem col-span-1 row-span-1" style="--r:1 ; --c:7;"><img src="https://images.pexels.com/photos/4273459/pexels-photo-4273459.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+            <div class=" elem col-span-1 row-span-1" style="--r:2 ; --c:2;"><img src="https://images.pexels.com/photos/3579181/pexels-photo-3579181.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+            <div class=" elem col-span-1 row-span-1" style="--r:2 ; --c:6;"><img src="https://images.pexels.com/photos/207862/pexels-photo-207862.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+            <div class=" elem col-span-1 row-span-1" style="--r:3 ; --c:4;"><img src="https://images.pexels.com/photos/1846574/pexels-photo-1846574.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+            <div class=" elem col-span-1 row-span-1" style="--r:3 ; --c:8;"><img src="https://images.pexels.com/photos/2941571/pexels-photo-2941571.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+            <div class=" elem col-span-1 row-span-1" style="--r:4 ; --c:1;"><img src="https://images.pexels.com/photos/3220360/pexels-photo-3220360.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+            <div class=" elem col-span-1 row-span-1" style="--r:4 ; --c:4;"><img src="https://images.pexels.com/photos/3701202/pexels-photo-3701202.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+            <div class=" elem col-span-1 row-span-1" style="--r:5 ; --c:2;"><img src="https://images.pexels.com/photos/4972904/pexels-photo-4972904.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+            <div class=" elem col-span-1 row-span-1" style="--r:5 ; --c:6;"><img src="https://images.pexels.com/photos/785435/pexels-photo-785435.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+            <div class=" elem col-span-1 row-span-1" style="--r:6 ; --c:3;"><img src="https://images.pexels.com/photos/1846597/pexels-photo-1846597.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+            <div class=" elem col-span-1 row-span-1" style="--r:6 ; --c:7;"><img src="https://images.pexels.com/photos/3701202/pexels-photo-3701202.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+            <div class=" elem col-span-1 row-span-1" style="--r:7 ; --c:5;"><img src="https://images.pexels.com/photos/3579181/pexels-photo-3579181.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+            <div class=" elem col-span-1 row-span-1" style="--r:7 ; --c:8;"><img src="https://images.pexels.com/photos/3220360/pexels-photo-3220360.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+            <div class=" elem col-span-1 row-span-1" style="--r:8 ; --c:1;"><img src="https://images.pexels.com/photos/785435/pexels-photo-785435.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+            <div class=" elem col-span-1 row-span-1" style="--r:8 ; --c:4;"><img src="https://images.pexels.com/photos/207862/pexels-photo-207862.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+            <div class=" elem col-span-1 row-span-1" style="--r:9 ; --c:2;"><img src="https://images.pexels.com/photos/1846597/pexels-photo-1846597.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+            <div class=" elem col-span-1 row-span-1" style="--r:9 ; --c:6;"><img src="https://images.pexels.com/photos/1846574/pexels-photo-1846574.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+            <div class=  "elem col-span-1 row-span-1" style="--r:10 ; --c:3;"><img src="https://images.pexels.com/photos/2941571/pexels-photo-2941571.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+            <div class=" elem col-span-1 row-span-1" style="--r:10 ; --c:7;"><img src="https://images.pexels.com/photos/4972904/pexels-photo-4972904.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+           </div>
+            
+        </div>
+
+        <div class="fixed top-0 left-0 w-full h-full flex flex-col items-center justify-center text-black">
+            <h1 class="text-8xl mb-4 uppercase font-semibold">Thomas vance</h1>
+            <h2 class="text-4xl ">裝地今圓清位禾</h2>
+        </div>
+
+        <div class="w-full h-screen bg-[#D1D1D1] flex justify-center relative items-center z-[9999]">
+            <p class="text-4xl px-60  leading-[2.8rem]">Thomas vance dolor sit amet consectetur adipisicing elit. Quibusdam natus enim magni earum laboriosam, obcaecati nulla harum corporis laborum ex ut at inventore blanditiis voluptatem amet quidem eius dolore suscipit vitae animi dolorum delectus.</p>
+        </div>
+
+        <div class="page1 w-full bg-[#BC9F8B]">
+            <div class="grid grid-cols-8 grid-rows-20 gap-2">
+             <div class="elem col-span-1 row-span-1" style="--r:1 ; --c:3;"><img src="https://images.pexels.com/photos/1758144/pexels-photo-1758144.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+             <div class=" elem col-span-1 row-span-1" style="--r:1 ; --c:7;"><img src="https://images.pexels.com/photos/4273459/pexels-photo-4273459.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+             <div class=" elem col-span-1 row-span-1" style="--r:2 ; --c:2;"><img src="https://images.pexels.com/photos/3579181/pexels-photo-3579181.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+             <div class=" elem col-span-1 row-span-1" style="--r:2 ; --c:6;"><img src="https://images.pexels.com/photos/207862/pexels-photo-207862.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+             <div class=" elem col-span-1 row-span-1" style="--r:3 ; --c:4;"><img src="https://images.pexels.com/photos/1846574/pexels-photo-1846574.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+             <div class=" elem col-span-1 row-span-1" style="--r:3 ; --c:8;"><img src="https://images.pexels.com/photos/2941571/pexels-photo-2941571.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+             <div class=" elem col-span-1 row-span-1" style="--r:4 ; --c:1;"><img src="https://images.pexels.com/photos/3220360/pexels-photo-3220360.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+             <div class=" elem col-span-1 row-span-1" style="--r:4 ; --c:4;"><img src="https://images.pexels.com/photos/3701202/pexels-photo-3701202.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+             <div class=" elem col-span-1 row-span-1" style="--r:5 ; --c:2;"><img src="https://images.pexels.com/photos/4972904/pexels-photo-4972904.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+             <div class=" elem col-span-1 row-span-1" style="--r:5 ; --c:6;"><img src="https://images.pexels.com/photos/785435/pexels-photo-785435.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+             <div class=" elem col-span-1 row-span-1" style="--r:6 ; --c:3;"><img src="https://images.pexels.com/photos/1846597/pexels-photo-1846597.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+             <div class=" elem col-span-1 row-span-1" style="--r:6 ; --c:7;"><img src="https://images.pexels.com/photos/3701202/pexels-photo-3701202.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+             <div class=" elem col-span-1 row-span-1" style="--r:7 ; --c:5;"><img src="https://images.pexels.com/photos/3579181/pexels-photo-3579181.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+             <div class=" elem col-span-1 row-span-1" style="--r:7 ; --c:8;"><img src="https://images.pexels.com/photos/3220360/pexels-photo-3220360.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+             <div class=" elem col-span-1 row-span-1" style="--r:8 ; --c:1;"><img src="https://images.pexels.com/photos/785435/pexels-photo-785435.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+             <div class=" elem col-span-1 row-span-1" style="--r:8 ; --c:4;"><img src="https://images.pexels.com/photos/207862/pexels-photo-207862.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+             <div class=" elem col-span-1 row-span-1" style="--r:9 ; --c:2;"><img src="https://images.pexels.com/photos/1846597/pexels-photo-1846597.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+             <div class=" elem col-span-1 row-span-1" style="--r:9 ; --c:6;"><img src="https://images.pexels.com/photos/1846574/pexels-photo-1846574.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+             <div class=  "elem col-span-1 row-span-1" style="--r:10 ; --c:3;"><img src="https://images.pexels.com/photos/2941571/pexels-photo-2941571.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+             <div class=" elem col-span-1 row-span-1" style="--r:10 ; --c:7;"><img src="https://images.pexels.com/photos/4972904/pexels-photo-4972904.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img1"></div>
+            </div>
+             
+         </div>
+ 
+         <div class="fixed top-0 left-0 w-full h-full flex flex-col items-center justify-center text-black">
+             <h1 class="text-8xl mb-4 uppercase font-semibold">Thomas vance</h1>
+             <h2 class="text-4xl ">裝地今圓清位禾</h2>
+         </div>
+      
+
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
+    <script src="/script.js"></script>
+</body>
+</html>
